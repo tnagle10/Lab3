@@ -127,7 +127,6 @@ namespace Lab3
                 // Convert the string input to a double.  I do this for the error checking available in
                 // the try and catch available from System 
                 double maxd = convToDouble(input);
-                Console.WriteLine("This is what was output" + maxd);
                 // Convert the double to a float.  This is for maximum calculations.
                 float maxf = (float)maxd;
 
